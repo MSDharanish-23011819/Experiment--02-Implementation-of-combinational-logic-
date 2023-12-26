@@ -9,8 +9,8 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+Hardware – PCs, Cyclone II , USB flasher
+Software – Quartus prime
 
 
 ## Theory
@@ -51,7 +51,7 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 7. Check all the gates following the same procedure.
 
 ## Program:
-
+```
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
 Developed by: MS Dharanish
 RegisterNumber:  23011819
@@ -67,6 +67,7 @@ assign X4=(~A)&(B)&(C)&(D);
 assign X5=(B)&(~C)&(D);
 assign F1=X1|X2|X3|X4|X5;
 endmodule
+```
 
 ## Output:
 
